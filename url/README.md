@@ -8,7 +8,7 @@ Application also contains data cards which are appended from the data in the dat
 I had issues in relation to docker images. Please check screenshoot in images folder.
 
 ## Installation
-1\. Download and extract the files to your web directory.
+1\. Download and extract the files to your web directory.Make sure its only the url file copied into the web directory.
 
 2\. Create a MySQL database named `shortdb` and import the `link.sql` file. This will create a table to hold your URLs.
 
