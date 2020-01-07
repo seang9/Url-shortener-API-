@@ -66,6 +66,7 @@ Edit the port number depending on what port Apache using.(Line 2)
 var rooturl = "http://localhost:4006/url/findall/";
 ``` 
 ## Project Architecture
+![Test Image 4](https://github.com/seang9/Url-shortener-API-/blob/master/url/images/architecture.png)
 In order to have RESTful API i used the Slim Framework which is a great micro framework for Web application.
 Crud operation are caried out in  `shortner.php` and their updated asynchronously in the `main.js` to the frontend.
 The main functionality of the  url shortener is in  `urlapi.php`.
@@ -94,3 +95,10 @@ Long url | Short url |
 https://www.westmeathindependent.ie/ |http://localhost:4006/url/d43783
 https://timetable.ait.ie/login.aspx?ReturnUrl=%2fdefault.aspx | http://localhost:4006/url/36a88f
 https://www.imdb.com/movies-coming-soon/ | http://localhost:4006/url/5ca43a
+## Screen Shots
+Home page
+![Test Image 4](https://github.com/seang9/Url-shortener-API-/blob/master/url/images/url.PNG)
+Edit Icon
+![Test Image 4](https://github.com/seang9/Url-shortener-API-/blob/master/url/images/modal.PNG)
+Redirect link
+![Test Image 4](https://github.com/seang9/Url-shortener-API-/blob/master/url/images/redirect.PNG)
