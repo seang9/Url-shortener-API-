@@ -78,18 +78,18 @@ Data cards functionality is carried out in `cards.php` and their updated asynchr
 
 Request Method | URI | Body (JSON) | Description |  
 :---: | :--- | :---: | :--- |
-GET | http://localhost:`4006`/url/findall | - | Get all urls | 
-GET | http://localhost:`4006`/url/findall/:id | - | Get a specific url | 
-GET | http://localhost:`4006`/url/findall/statistics/ | - | Get all statistics and urls| 
-GET | http://localhost:`4006`/url/findall/stat/:id | - | Get all statistics for specific url |
-DELETE | http://localhost:`4006`/url/findall/deleteurl/:id | - | Remove a specific url |
-PUT | http://localhost:`4006`/findall/updateurl/:id | "id":"","url":"","short_code":"".. | Update url |
-POST | http://localhost:`4006`/findall/add|"url": ""| Add url |
-GET | http://localhost:`4006`/url/findall/popular/| - | Find the most popular short code | 
-GET | http://localhost:`4006`/url/findall/counturls/ | - | Total number of urls in the database | 
-GET | http://localhost:`4006`/url/findall/topbrowser/ | - | Most used browser | 
-GET | http://localhost:`4006`/url/:short_code | - | Short code redirects to the long url |  
-GET | http://localhost:`4006`/url/urlapi.php?url= | - | Enter long url to revive the shortcode |
+GET | http://localhost:4006/url/findall | - | Get all urls | 
+GET | http://localhost:4006/url/findall/:id | - | Get a specific url | 
+GET | http://localhost:4006/url/findall/statistics/ | - | Get all statistics and urls| 
+GET | http://localhost:4006/url/findall/stat/:id | - | Get all statistics for specific url |
+DELETE | http://localhost:4006/url/findall/deleteurl/:id | - | Remove a specific url |
+PUT | http://localhost:4006/findall/updateurl/:id | "id":"","url":"","short_code":"".. | Update url |
+POST | http://localhost:4006/findall/add|"url": ""| Add url |
+GET | http://localhost:4006/url/findall/popular/| - | Find the most popular short code | 
+GET | http://localhost:4006/url/findall/counturls/ | - | Total number of urls in the database | 
+GET | http://localhost:4006/url/findall/topbrowser/ | - | Most used browser | 
+GET | http://localhost:4006/url/:short_code | - | Short code redirects to the long url |  
+GET | http://localhost:4006/url/urlapi.php?url= | - | Enter long url to receive the shortcode |
 ## Example of short urls
 Long url | Short url |
 :---: | :--- |
